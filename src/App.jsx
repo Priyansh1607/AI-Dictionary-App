@@ -28,7 +28,7 @@ const App = () => {
 
   useEffect(() => {
     aiRef.current = new GoogleGenAI({
-      apiKey: process.env.REACT_APP_GOOGLE_API_KEY,
+      apiKey: import.meta.env.VITE_GEMINI_API_KEY,
     });
     const storedRecents = JSON.parse(localStorage.getItem("recentWords"));
     if (storedRecents?.length) {

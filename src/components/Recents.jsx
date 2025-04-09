@@ -15,7 +15,6 @@ const Recents = ({ recent, handleRecent }) => {
     <>
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold mb-6">Search History</h1>
-
         {recent.length > 0 ? (
           sortedSections.map((letter) => (
             <div key={letter} className="mb-8">
