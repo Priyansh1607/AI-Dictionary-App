@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols:wght@100..900&display=swap");
+body {
+  height: 100vh;
+  overflow-x: hidden;
+  font-family: "Noto Sans Symbols", sans-serif;
+}
+@import "tailwindcss";
