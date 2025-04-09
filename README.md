@@ -3,6 +3,7 @@
 A sleek, modern dictionary application powered by AI. Built with **React JS**, styled using **Tailwind CSS**, and integrated with the **Google Gemini API**, this app helps users find definitions and meanings of words with ease.
 
 [Live Demo Now](https://Priyansh1607.github.io/AI-Dictionary-App/) 💻
+
 ---
 
 ## 🚀 Tech Stack
